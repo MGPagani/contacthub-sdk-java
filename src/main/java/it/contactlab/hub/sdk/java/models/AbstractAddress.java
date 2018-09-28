@@ -30,6 +30,11 @@ public abstract class AbstractAddress {
    * The province.
    */
   public abstract Optional<String> province();
+  
+   /**
+   * The region.
+   */
+  public abstract Optional<String> region();
 
   /**
    * The ZIP code.
