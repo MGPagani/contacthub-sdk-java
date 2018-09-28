@@ -55,4 +55,9 @@ public abstract class AbstractCustomer {
    * The {@link CustomerTags} associated to the customer.
    */
   public abstract Optional<CustomerTags> tags();
+  
+  /**
+   * The {@link SourceInfo} associated to the customer.
+   */
+  public abstract Optional<SourceInfo> sourceInfo();
 }
